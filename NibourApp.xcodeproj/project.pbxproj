@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2218586920C73CBF00D158A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2218586820C73CBF00D158A5 /* GoogleService-Info.plist */; };
+		2275247820C5D9240028E6DB /* nibourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275247720C5D9240028E6DB /* nibourTests.swift */; };
+		2275248320C5D9240028E6DB /* nibourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275248220C5D9240028E6DB /* nibourUITests.swift */; };
+		227524A020C6F8FC0028E6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275249120C6F8FC0028E6DB /* AppDelegate.swift */; };
+		227524A120C6F8FC0028E6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2275249420C6F8FC0028E6DB /* LaunchScreen.storyboard */; };
+		227524A220C6F8FC0028E6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2275249620C6F8FC0028E6DB /* Main.storyboard */; };
+		227524A320C6F8FC0028E6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2275249920C6F8FC0028E6DB /* Assets.xcassets */; };
+		227524A520C6F8FC0028E6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275249D20C6F8FC0028E6DB /* ViewController.swift */; };
+		9FBF9AC6DA848E2A113F490E /* Pods_nibour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE717390DB257955BDCD6A7 /* Pods_nibour.framework */; };
+		B5077E268703E3FDE0AE5424 /* libPods-NibourAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E22380AACCB14E15A6E4C81 /* libPods-NibourAppTests.a */; };
+		C33E34EA245D3A054C79E2AD /* Pods_NibourApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF110F4F39D7D63D1019B4C6 /* Pods_NibourApp.framework */; };
+		CB04A7272D164E436047648B /* Pods_nibourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4220605498CEB4F1736F97 /* Pods_nibourTests.framework */; };
+		D5F2C0ACBFF4AB18A0C0D4F7 /* Pods_nibourUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB8DAB4AF04170C7481F056 /* Pods_nibourUITests.framework */; };
+		FDA43C6EB9DB04EDD2829594 /* libPods-NibourAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2972451D9A85237993E882C /* libPods-NibourAppUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2275247420C5D9240028E6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2275245720C5D9230028E6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2275245E20C5D9230028E6DB;
+			remoteInfo = nibour;
+		};
+		2275247F20C5D9240028E6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2275245720C5D9230028E6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2275245E20C5D9230028E6DB;
+			remoteInfo = nibour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13776918C684F5C5F59DA587 /* Pods-NibourAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibourAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NibourAppTests/Pods-NibourAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DC998AE6B954A60E343C2AF /* Pods-NibourAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibourAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NibourAppUITests/Pods-NibourAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2218586820C73CBF00D158A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2275245F20C5D9230028E6DB /* NibourApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibourApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2275247320C5D9240028E6DB /* NibourAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibourAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2275247720C5D9240028E6DB /* nibourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nibourTests.swift; sourceTree = "<group>"; };
+		2275247920C5D9240028E6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2275247E20C5D9240028E6DB /* NibourAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibourAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2275248220C5D9240028E6DB /* nibourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nibourUITests.swift; sourceTree = "<group>"; };
+		2275248420C5D9250028E6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2275249120C6F8FC0028E6DB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2275249520C6F8FC0028E6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2275249720C6F8FC0028E6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2275249920C6F8FC0028E6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2275249B20C6F8FC0028E6DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2275249D20C6F8FC0028E6DB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A17B2054E7E6968BE03E22D /* Pods-NibourAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibourAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NibourAppUITests/Pods-NibourAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44913352DE707BA1116929D0 /* Pods-NibourApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibourApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NibourApp/Pods-NibourApp.release.xcconfig"; sourceTree = "<group>"; };
+		4BA93EB6A92F181238C51AC8 /* Pods-nibourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibourTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nibourTests/Pods-nibourTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E22380AACCB14E15A6E4C81 /* libPods-NibourAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NibourAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3FAB245A832686EEC63312 /* Pods-nibourUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibourUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nibourUITests/Pods-nibourUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82E0CF152F371D84C1D3548A /* Pods-nibour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibour.release.xcconfig"; path = "Pods/Target Support Files/Pods-nibour/Pods-nibour.release.xcconfig"; sourceTree = "<group>"; };
+		85A613807982411F867E7954 /* Pods-NibourApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibourApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NibourApp/Pods-NibourApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9DB8DAB4AF04170C7481F056 /* Pods_nibourUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nibourUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3887F4D1B1F93C810A75159 /* Pods-nibourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibourUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nibourUITests/Pods-nibourUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF110F4F39D7D63D1019B4C6 /* Pods_NibourApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NibourApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2972451D9A85237993E882C /* libPods-NibourAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NibourAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E8D8AD0C03C198044040A3 /* Pods-NibourAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibourAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NibourAppTests/Pods-NibourAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD93A14C563F2D34A3303980 /* Pods-nibourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibourTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nibourTests/Pods-nibourTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D99AADC70A3D7964D1ABA2C0 /* Pods-nibour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nibour/Pods-nibour.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4220605498CEB4F1736F97 /* Pods_nibourTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nibourTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE717390DB257955BDCD6A7 /* Pods_nibour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nibour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2275245C20C5D9230028E6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBF9AC6DA848E2A113F490E /* Pods_nibour.framework in Frameworks */,
+				C33E34EA245D3A054C79E2AD /* Pods_NibourApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2275247020C5D9240028E6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB04A7272D164E436047648B /* Pods_nibourTests.framework in Frameworks */,
+				B5077E268703E3FDE0AE5424 /* libPods-NibourAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2275247B20C5D9240028E6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F2C0ACBFF4AB18A0C0D4F7 /* Pods_nibourUITests.framework in Frameworks */,
+				FDA43C6EB9DB04EDD2829594 /* libPods-NibourAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2218586620C73CBF00D158A5 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2218586720C73CBF00D158A5 /* Firebase */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		2218586720C73CBF00D158A5 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				2218586820C73CBF00D158A5 /* GoogleService-Info.plist */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		2275245620C5D9230028E6DB = {
+			isa = PBXGroup;
+			children = (
+				2275246120C5D9230028E6DB /* NibourApp */,
+				2275247620C5D9240028E6DB /* nibourTests */,
+				2275248120C5D9240028E6DB /* nibourUITests */,
+				2275246020C5D9230028E6DB /* Products */,
+				92885018D05309399905293E /* Pods */,
+				4300A9EDAD46441DB38F9375 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2275246020C5D9230028E6DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2275245F20C5D9230028E6DB /* NibourApp.app */,
+				2275247320C5D9240028E6DB /* NibourAppTests.xctest */,
+				2275247E20C5D9240028E6DB /* NibourAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2275246120C5D9230028E6DB /* NibourApp */ = {
+			isa = PBXGroup;
+			children = (
+				2275249020C6F8FC0028E6DB /* AppDelegate */,
+				2275249C20C6F8FC0028E6DB /* Applications */,
+				2218586620C73CBF00D158A5 /* Framework */,
+				2275249220C6F8FC0028E6DB /* Resources */,
+				2275249A20C6F8FC0028E6DB /* Supporting */,
+			);
+			path = NibourApp;
+			sourceTree = "<group>";
+		};
+		2275247620C5D9240028E6DB /* nibourTests */ = {
+			isa = PBXGroup;
+			children = (
+				2275247720C5D9240028E6DB /* nibourTests.swift */,
+				2275247920C5D9240028E6DB /* Info.plist */,
+			);
+			path = nibourTests;
+			sourceTree = "<group>";
+		};
+		2275248120C5D9240028E6DB /* nibourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2275248220C5D9240028E6DB /* nibourUITests.swift */,
+				2275248420C5D9250028E6DB /* Info.plist */,
+			);
+			path = nibourUITests;
+			sourceTree = "<group>";
+		};
+		2275249020C6F8FC0028E6DB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2275249120C6F8FC0028E6DB /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2275249220C6F8FC0028E6DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2275249320C6F8FC0028E6DB /* Storyboards */,
+				2275249820C6F8FC0028E6DB /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2275249320C6F8FC0028E6DB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2275249420C6F8FC0028E6DB /* LaunchScreen.storyboard */,
+				2275249620C6F8FC0028E6DB /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2275249820C6F8FC0028E6DB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2275249920C6F8FC0028E6DB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2275249A20C6F8FC0028E6DB /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				2275249B20C6F8FC0028E6DB /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		2275249C20C6F8FC0028E6DB /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				2275249D20C6F8FC0028E6DB /* ViewController.swift */,
+				2275249E20C6F8FC0028E6DB /* Models */,
+				2275249F20C6F8FC0028E6DB /* ViewControllers */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		2275249E20C6F8FC0028E6DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2275249F20C6F8FC0028E6DB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4300A9EDAD46441DB38F9375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAE717390DB257955BDCD6A7 /* Pods_nibour.framework */,
+				DB4220605498CEB4F1736F97 /* Pods_nibourTests.framework */,
+				9DB8DAB4AF04170C7481F056 /* Pods_nibourUITests.framework */,
+				BF110F4F39D7D63D1019B4C6 /* Pods_NibourApp.framework */,
+				4E22380AACCB14E15A6E4C81 /* libPods-NibourAppTests.a */,
+				C2972451D9A85237993E882C /* libPods-NibourAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92885018D05309399905293E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D99AADC70A3D7964D1ABA2C0 /* Pods-nibour.debug.xcconfig */,
+				82E0CF152F371D84C1D3548A /* Pods-nibour.release.xcconfig */,
+				CD93A14C563F2D34A3303980 /* Pods-nibourTests.debug.xcconfig */,
+				4BA93EB6A92F181238C51AC8 /* Pods-nibourTests.release.xcconfig */,
+				5E3FAB245A832686EEC63312 /* Pods-nibourUITests.debug.xcconfig */,
+				A3887F4D1B1F93C810A75159 /* Pods-nibourUITests.release.xcconfig */,
+				85A613807982411F867E7954 /* Pods-NibourApp.debug.xcconfig */,
+				44913352DE707BA1116929D0 /* Pods-NibourApp.release.xcconfig */,
+				13776918C684F5C5F59DA587 /* Pods-NibourAppTests.debug.xcconfig */,
+				C5E8D8AD0C03C198044040A3 /* Pods-NibourAppTests.release.xcconfig */,
+				1DC998AE6B954A60E343C2AF /* Pods-NibourAppUITests.debug.xcconfig */,
+				2A17B2054E7E6968BE03E22D /* Pods-NibourAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2275245E20C5D9230028E6DB /* NibourApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2275248720C5D9250028E6DB /* Build configuration list for PBXNativeTarget "NibourApp" */;
+			buildPhases = (
+				4F4213822B746144AC49E5A7 /* [CP] Check Pods Manifest.lock */,
+				2275245B20C5D9230028E6DB /* Sources */,
+				2275245C20C5D9230028E6DB /* Frameworks */,
+				2275245D20C5D9230028E6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NibourApp;
+			productName = nibour;
+			productReference = 2275245F20C5D9230028E6DB /* NibourApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2275247220C5D9240028E6DB /* NibourAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2275248A20C5D9250028E6DB /* Build configuration list for PBXNativeTarget "NibourAppTests" */;
+			buildPhases = (
+				8145B28BC9EB89EE00355C0A /* [CP] Check Pods Manifest.lock */,
+				2275246F20C5D9240028E6DB /* Sources */,
+				2275247020C5D9240028E6DB /* Frameworks */,
+				2275247120C5D9240028E6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2275247520C5D9240028E6DB /* PBXTargetDependency */,
+			);
+			name = NibourAppTests;
+			productName = nibourTests;
+			productReference = 2275247320C5D9240028E6DB /* NibourAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2275247D20C5D9240028E6DB /* NibourAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2275248D20C5D9250028E6DB /* Build configuration list for PBXNativeTarget "NibourAppUITests" */;
+			buildPhases = (
+				D15A3137A0FC3B820273659A /* [CP] Check Pods Manifest.lock */,
+				2275247A20C5D9240028E6DB /* Sources */,
+				2275247B20C5D9240028E6DB /* Frameworks */,
+				2275247C20C5D9240028E6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2275248020C5D9240028E6DB /* PBXTargetDependency */,
+			);
+			name = NibourAppUITests;
+			productName = nibourUITests;
+			productReference = 2275247E20C5D9240028E6DB /* NibourAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2275245720C5D9230028E6DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jacky So";
+				TargetAttributes = {
+					2275245E20C5D9230028E6DB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					2275247220C5D9240028E6DB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2275245E20C5D9230028E6DB;
+					};
+					2275247D20C5D9240028E6DB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2275245E20C5D9230028E6DB;
+					};
+				};
+			};
+			buildConfigurationList = 2275245A20C5D9230028E6DB /* Build configuration list for PBXProject "NibourApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2275245620C5D9230028E6DB;
+			productRefGroup = 2275246020C5D9230028E6DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2275245E20C5D9230028E6DB /* NibourApp */,
+				2275247220C5D9240028E6DB /* NibourAppTests */,
+				2275247D20C5D9240028E6DB /* NibourAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2275245D20C5D9230028E6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227524A120C6F8FC0028E6DB /* LaunchScreen.storyboard in Resources */,
+				2218586920C73CBF00D158A5 /* GoogleService-Info.plist in Resources */,
+				227524A320C6F8FC0028E6DB /* Assets.xcassets in Resources */,
+				227524A220C6F8FC0028E6DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2275247120C5D9240028E6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2275247C20C5D9240028E6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F4213822B746144AC49E5A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NibourApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8145B28BC9EB89EE00355C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NibourAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D15A3137A0FC3B820273659A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NibourAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2275245B20C5D9230028E6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227524A520C6F8FC0028E6DB /* ViewController.swift in Sources */,
+				227524A020C6F8FC0028E6DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2275246F20C5D9240028E6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2275247820C5D9240028E6DB /* nibourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2275247A20C5D9240028E6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2275248320C5D9240028E6DB /* nibourUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2275247520C5D9240028E6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2275245E20C5D9230028E6DB /* NibourApp */;
+			targetProxy = 2275247420C5D9240028E6DB /* PBXContainerItemProxy */;
+		};
+		2275248020C5D9240028E6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2275245E20C5D9230028E6DB /* NibourApp */;
+			targetProxy = 2275247F20C5D9240028E6DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2275249420C6F8FC0028E6DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2275249520C6F8FC0028E6DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2275249620C6F8FC0028E6DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2275249720C6F8FC0028E6DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2275248520C5D9250028E6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2275248620C5D9250028E6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2275248820C5D9250028E6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A613807982411F867E7954 /* Pods-NibourApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4D4K2K7SY;
+				INFOPLIST_FILE = "$(SRCROOT)/NibourApp/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soxx.nibour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2275248920C5D9250028E6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44913352DE707BA1116929D0 /* Pods-NibourApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4D4K2K7SY;
+				INFOPLIST_FILE = "$(SRCROOT)/NibourApp/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soxx.nibour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2275248B20C5D9250028E6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13776918C684F5C5F59DA587 /* Pods-NibourAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4D4K2K7SY;
+				INFOPLIST_FILE = nibourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soxx.nibourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NibourApp.app/NibourApp";
+			};
+			name = Debug;
+		};
+		2275248C20C5D9250028E6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E8D8AD0C03C198044040A3 /* Pods-NibourAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4D4K2K7SY;
+				INFOPLIST_FILE = nibourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soxx.nibourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NibourApp.app/NibourApp";
+			};
+			name = Release;
+		};
+		2275248E20C5D9250028E6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC998AE6B954A60E343C2AF /* Pods-NibourAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4D4K2K7SY;
+				INFOPLIST_FILE = nibourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soxx.nibourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nibour;
+			};
+			name = Debug;
+		};
+		2275248F20C5D9250028E6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A17B2054E7E6968BE03E22D /* Pods-NibourAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4D4K2K7SY;
+				INFOPLIST_FILE = nibourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soxx.nibourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nibour;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2275245A20C5D9230028E6DB /* Build configuration list for PBXProject "NibourApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2275248520C5D9250028E6DB /* Debug */,
+				2275248620C5D9250028E6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2275248720C5D9250028E6DB /* Build configuration list for PBXNativeTarget "NibourApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2275248820C5D9250028E6DB /* Debug */,
+				2275248920C5D9250028E6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2275248A20C5D9250028E6DB /* Build configuration list for PBXNativeTarget "NibourAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2275248B20C5D9250028E6DB /* Debug */,
+				2275248C20C5D9250028E6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2275248D20C5D9250028E6DB /* Build configuration list for PBXNativeTarget "NibourAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2275248E20C5D9250028E6DB /* Debug */,
+				2275248F20C5D9250028E6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2275245720C5D9230028E6DB /* Project object */;
+}
