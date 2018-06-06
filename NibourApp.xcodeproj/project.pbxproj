@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2218586920C73CBF00D158A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2218586820C73CBF00D158A5 /* GoogleService-Info.plist */; };
+		2260CED120C74F85001CB5E7 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2260CED020C74F85001CB5E7 /* credentials.plist */; };
+		2260CED320C7505F001CB5E7 /* FirebaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CED220C7505F001CB5E7 /* FirebaseExtension.swift */; };
+		2260CED520C7510B001CB5E7 /* GoogleCalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CED420C7510B001CB5E7 /* GoogleCalendarExtension.swift */; };
+		2260CED920C75323001CB5E7 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CED820C75323001CB5E7 /* BundleExtension.swift */; };
+		2260CEE020C7583C001CB5E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CEDF20C7583C001CB5E7 /* LoginViewController.swift */; };
+		2260CEE220C763B3001CB5E7 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CEE120C763B3001CB5E7 /* StartupViewController.swift */; };
+		2260CEE420C77B22001CB5E7 /* ApplicationSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2260CEE320C77B22001CB5E7 /* ApplicationSettings.plist */; };
+		2260CEE620C77E1F001CB5E7 /* ApplicationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CEE520C77E1F001CB5E7 /* ApplicationSettings.swift */; };
 		2275247820C5D9240028E6DB /* nibourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275247720C5D9240028E6DB /* nibourTests.swift */; };
 		2275248320C5D9240028E6DB /* nibourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275248220C5D9240028E6DB /* nibourUITests.swift */; };
 		227524A020C6F8FC0028E6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275249120C6F8FC0028E6DB /* AppDelegate.swift */; };
@@ -15,7 +23,6 @@
 		227524A220C6F8FC0028E6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2275249620C6F8FC0028E6DB /* Main.storyboard */; };
 		227524A320C6F8FC0028E6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2275249920C6F8FC0028E6DB /* Assets.xcassets */; };
 		227524A520C6F8FC0028E6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275249D20C6F8FC0028E6DB /* ViewController.swift */; };
-		9FBF9AC6DA848E2A113F490E /* Pods_nibour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE717390DB257955BDCD6A7 /* Pods_nibour.framework */; };
 		B5077E268703E3FDE0AE5424 /* libPods-NibourAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E22380AACCB14E15A6E4C81 /* libPods-NibourAppTests.a */; };
 		C33E34EA245D3A054C79E2AD /* Pods_NibourApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF110F4F39D7D63D1019B4C6 /* Pods_NibourApp.framework */; };
 		CB04A7272D164E436047648B /* Pods_nibourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4220605498CEB4F1736F97 /* Pods_nibourTests.framework */; };
@@ -44,6 +51,14 @@
 		13776918C684F5C5F59DA587 /* Pods-NibourAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibourAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NibourAppTests/Pods-NibourAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1DC998AE6B954A60E343C2AF /* Pods-NibourAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibourAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NibourAppUITests/Pods-NibourAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2218586820C73CBF00D158A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2260CED020C74F85001CB5E7 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		2260CED220C7505F001CB5E7 /* FirebaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseExtension.swift; sourceTree = "<group>"; };
+		2260CED420C7510B001CB5E7 /* GoogleCalendarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCalendarExtension.swift; sourceTree = "<group>"; };
+		2260CED820C75323001CB5E7 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		2260CEDF20C7583C001CB5E7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2260CEE120C763B3001CB5E7 /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		2260CEE320C77B22001CB5E7 /* ApplicationSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApplicationSettings.plist; sourceTree = "<group>"; };
+		2260CEE520C77E1F001CB5E7 /* ApplicationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationSettings.swift; sourceTree = "<group>"; };
 		2275245F20C5D9230028E6DB /* NibourApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibourApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2275247320C5D9240028E6DB /* NibourAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibourAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2275247720C5D9240028E6DB /* nibourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nibourTests.swift; sourceTree = "<group>"; };
@@ -80,7 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FBF9AC6DA848E2A113F490E /* Pods_nibour.framework in Frameworks */,
 				C33E34EA245D3A054C79E2AD /* Pods_NibourApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +123,7 @@
 		2218586620C73CBF00D158A5 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				2260CECF20C74F85001CB5E7 /* GoogleCalendar */,
 				2218586720C73CBF00D158A5 /* Firebase */,
 			);
 			path = Framework;
@@ -118,8 +133,41 @@
 			isa = PBXGroup;
 			children = (
 				2218586820C73CBF00D158A5 /* GoogleService-Info.plist */,
+				2260CED220C7505F001CB5E7 /* FirebaseExtension.swift */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		2260CECF20C74F85001CB5E7 /* GoogleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				2260CED020C74F85001CB5E7 /* credentials.plist */,
+				2260CED420C7510B001CB5E7 /* GoogleCalendarExtension.swift */,
+			);
+			path = GoogleCalendar;
+			sourceTree = "<group>";
+		};
+		2260CED720C752F8001CB5E7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2260CEE720C77F6E001CB5E7 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				2260CEE320C77B22001CB5E7 /* ApplicationSettings.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		2260CEE820C796C1001CB5E7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2260CED820C75323001CB5E7 /* BundleExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		2275245620C5D9230028E6DB = {
@@ -149,8 +197,8 @@
 			children = (
 				2275249020C6F8FC0028E6DB /* AppDelegate */,
 				2275249C20C6F8FC0028E6DB /* Applications */,
-				2218586620C73CBF00D158A5 /* Framework */,
 				2275249220C6F8FC0028E6DB /* Resources */,
+				2218586620C73CBF00D158A5 /* Framework */,
 				2275249A20C6F8FC0028E6DB /* Supporting */,
 			);
 			path = NibourApp;
@@ -185,6 +233,7 @@
 		2275249220C6F8FC0028E6DB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2260CEE720C77F6E001CB5E7 /* Plists */,
 				2275249320C6F8FC0028E6DB /* Storyboards */,
 				2275249820C6F8FC0028E6DB /* Assets */,
 			);
@@ -222,6 +271,8 @@
 				2275249D20C6F8FC0028E6DB /* ViewController.swift */,
 				2275249E20C6F8FC0028E6DB /* Models */,
 				2275249F20C6F8FC0028E6DB /* ViewControllers */,
+				2260CEE820C796C1001CB5E7 /* Extensions */,
+				2260CED720C752F8001CB5E7 /* Helpers */,
 			);
 			path = Applications;
 			sourceTree = "<group>";
@@ -229,6 +280,7 @@
 		2275249E20C6F8FC0028E6DB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2260CEE520C77E1F001CB5E7 /* ApplicationSettings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -236,6 +288,8 @@
 		2275249F20C6F8FC0028E6DB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2260CEE120C763B3001CB5E7 /* StartupViewController.swift */,
+				2260CEDF20C7583C001CB5E7 /* LoginViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -283,6 +337,8 @@
 				2275245B20C5D9230028E6DB /* Sources */,
 				2275245C20C5D9230028E6DB /* Frameworks */,
 				2275245D20C5D9230028E6DB /* Resources */,
+				924ED00C6686BD653427E117 /* [CP] Embed Pods Frameworks */,
+				CB7618AC975074889920AAD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -379,8 +435,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2260CEE420C77B22001CB5E7 /* ApplicationSettings.plist in Resources */,
 				227524A120C6F8FC0028E6DB /* LaunchScreen.storyboard in Resources */,
 				2218586920C73CBF00D158A5 /* GoogleService-Info.plist in Resources */,
+				2260CED120C74F85001CB5E7 /* credentials.plist in Resources */,
 				227524A320C6F8FC0028E6DB /* Assets.xcassets in Resources */,
 				227524A220C6F8FC0028E6DB /* Main.storyboard in Resources */,
 			);
@@ -439,6 +497,52 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		924ED00C6686BD653427E117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NibourApp/Pods-NibourApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NibourApp/Pods-NibourApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB7618AC975074889920AAD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NibourApp/Pods-NibourApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NibourApp/Pods-NibourApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D15A3137A0FC3B820273659A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,8 +568,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2260CEE220C763B3001CB5E7 /* StartupViewController.swift in Sources */,
+				2260CEE020C7583C001CB5E7 /* LoginViewController.swift in Sources */,
+				2260CED920C75323001CB5E7 /* BundleExtension.swift in Sources */,
+				2260CED520C7510B001CB5E7 /* GoogleCalendarExtension.swift in Sources */,
+				2260CED320C7505F001CB5E7 /* FirebaseExtension.swift in Sources */,
 				227524A520C6F8FC0028E6DB /* ViewController.swift in Sources */,
 				227524A020C6F8FC0028E6DB /* AppDelegate.swift in Sources */,
+				2260CEE620C77E1F001CB5E7 /* ApplicationSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
